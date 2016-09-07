@@ -1,0 +1,1 @@
+<h3>Примеры определения разных Scope (Singleton, PROTOTYPE)</h3>
