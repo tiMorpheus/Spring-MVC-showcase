@@ -3,13 +3,22 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvc" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Spring_MVC_Showcase/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCore/pom.xml" />
         <option value="$PROJECT_DIR$/SpringExamples/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvc/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../SpringMvc/SpringMvcHelloWorld/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">

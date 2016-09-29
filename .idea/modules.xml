@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCore/SpringCore.iml" filepath="$PROJECT_DIR$/SpringCore/SpringCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringExamples/SpringDataJPA.iml" filepath="$PROJECT_DIR$/SpringExamples/SpringDataJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringHelloWorld.iml" filepath="$PROJECT_DIR$/SpringHelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Showcase/Spring_MVC_Showcase.iml" filepath="$PROJECT_DIR$/Spring_MVC_Showcase/Spring_MVC_Showcase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMvc/SpringMvc.iml" filepath="$PROJECT_DIR$/SpringMvc/SpringMvc.iml" />
     </modules>
   </component>
 </project>
