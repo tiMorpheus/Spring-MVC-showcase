@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Spring_MVC_Showcase" />
+        <module name="SpringDataJPA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring_MVC_Showcase" target="1.5" />
       <module name="SpringCore" target="1.8" />
+      <module name="SpringDataJPA" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
