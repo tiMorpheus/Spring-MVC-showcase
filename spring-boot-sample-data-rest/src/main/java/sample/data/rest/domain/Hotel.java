@@ -10,6 +10,8 @@ public class Hotel implements Serializable{
 
     private static final long serialVersionUID = -1972282324786184531L;
 
+
+
     @Id
     @GeneratedValue
     private Long id;

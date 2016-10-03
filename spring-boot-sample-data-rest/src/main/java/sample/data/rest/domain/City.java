@@ -11,6 +11,9 @@ public class City implements Serializable{
 
     private static final long serialVersionUID = 4475421814613801058L;
 
+    public City() {
+    }
+
     @Id
     @GeneratedValue
     private Long id;
