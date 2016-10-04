@@ -1,4 +1,4 @@
-package github.tiMorpheus.output;
+package github.tiMorpheus.setterDI.output;
 
 public interface IOutputGenerator {
 

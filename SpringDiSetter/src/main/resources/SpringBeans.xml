@@ -3,10 +3,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean id="OutputHelper" class="github.tiMorpheus.output.OutputHelper">
+    <bean id="OutputHelper" class="github.tiMorpheus.setterDI.output.OutputHelper">
         <property name="outputGenerator" ref="CsvOutputGenerator" />
     </bean>
 
-    <bean id="CsvOutputGenerator" class="github.tiMorpheus.output.Impl.CsvOutputGenerator" />
+    <bean id="CsvOutputGenerator" class="github.tiMorpheus.setterDI.output.Impl.CsvOutputGenerator" />
 
 </beans>
