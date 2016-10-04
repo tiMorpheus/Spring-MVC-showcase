@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="helloBean" class="github.tiMorpheus.common.HelloWorld">
+        <property name="name" value="Tymur1" />
+    </bean>
+
+    <bean id="hello" class="github.tiMorpheus.common.HelloWorld">
+        <property name="name" value="Tymur2" />
+    </bean>
+</beans>
