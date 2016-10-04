@@ -2,11 +2,22 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
-
+    <!--SETTER-->
     <bean id="OutputHelper" class="github.tiMorpheus.setterDI.output.OutputHelper">
         <property name="outputGenerator" ref="CsvOutputGenerator" />
     </bean>
 
     <bean id="CsvOutputGenerator" class="github.tiMorpheus.setterDI.output.Impl.CsvOutputGenerator" />
+
+
+    <!--CONSTRUCTOR-->
+    <bean id="OutputConstructorHelper" class="github.tiMorpheus.constructorDI.output.OutputHelper">
+        <constructor-arg>
+            <ref bean="JsonOutputGenerator"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="JsonOutputGenerator" class="github.tiMorpheus.constructorDI.output.impl.JsonOutputGenerator"/>
+
 
 </beans>
