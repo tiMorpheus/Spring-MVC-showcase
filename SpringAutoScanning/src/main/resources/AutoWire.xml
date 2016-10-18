@@ -4,19 +4,10 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean id="customer" class="common.Customer" autowire="byName" />
 
-<!--
+    <bean id="person" class="common.Person" />
 
-    <bean id="customerService" class="core.CustomerService">
-        <property name="customerDao" ref="customerDao" />
-    </bean>
 
-    <bean id="customerDao" class="core.CustomerDao" />
--->
 
-    <context:component-scan base-package="core">
-        <context:include-filter type="regex" expression="core.*Dao*" />
-
-        <context:include-filter type="regex" expression="core.*Service*" />
-    </context:component-scan>
 </beans>

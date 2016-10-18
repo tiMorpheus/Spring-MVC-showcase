@@ -8,7 +8,7 @@ public class App {
 
         ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"Bean.xml"});
 
-        CustomerService service = (CustomerService) context.getBean("customerService");
+        CustomerService service = (CustomerService) context.getBean("AAA");
 
         System.out.println(service);
     }
